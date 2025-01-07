@@ -8,8 +8,9 @@ const Skill = ({ src, alt, percentage }) => {
       <Image src={src} alt={alt} width={50} height={50} className="absolute" />
 
       {/* Percentage on Hover */}
-      <div className="absolute w-full h-full flex items-center justify-center bg-black bg-opacity-70 text-white text-sm font-bold rounded-full opacity-0 hover:opacity-100 transition-opacity duration-300">
-        {percentage}%
+      <div className="absolute w-full h-full flex flex-col items-center justify-center bg-black bg-opacity-70 text-white text-sm font-bold rounded-full opacity-0 hover:opacity-100 transition-opacity duration-300">
+        <div>{alt}</div>
+        <div>{percentage}%</div>
       </div>
     </div>
   );

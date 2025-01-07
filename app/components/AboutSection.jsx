@@ -12,12 +12,12 @@ const TAB_DATA = [
         I am a web developer with a passion for creating efficient and
         user-friendly web applications. I honed my skills in HTML, CSS,
         Bootstrap, React, JavaScript, and Ruby on Rails through a comprehensive
-        bootcamp. My professional experience as a Jr. Systems Engineer expanded
-        my expertise to include PostgreSQL, Ruby, Ruby on Rails, Git, and
-        GitHub. Currently, I am broadening my skill set by learning C# and the
-        .NET framework through a Udemy course. I am a fast learner and eager to
-        take on new challenges, constantly seeking opportunities to expand my
-        knowledge and improve my craft.
+        bootcamp. My experience as a Jr. Systems Engineer further enhanced my
+        knowledge in PostgreSQL, Ruby, Ruby on Rails, Git, and GitHub. At
+        present, I’m expanding my expertise by learning C# and the .NET
+        framework through a Udemy course. I’m a quick learner, always eager to
+        tackle new challenges and continuously grow both my knowledge and
+        skills.
       </p>
     ),
   },
