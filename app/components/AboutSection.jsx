@@ -8,14 +8,17 @@ const TAB_DATA = [
     title: "About",
     id: "about",
     content: (
-      <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
-        <li>JavaScript</li>
-        <li>React</li>
-      </ul>
+      <p className="text-white">
+        I am a web developer with a passion for creating efficient and
+        user-friendly web applications. I honed my skills in HTML, CSS,
+        Bootstrap, React, JavaScript, and Ruby on Rails through a comprehensive
+        bootcamp. My professional experience as a Jr. Systems Engineer expanded
+        my expertise to include PostgreSQL, Ruby, Ruby on Rails, Git, and
+        GitHub. Currently, I am broadening my skill set by learning C# and the
+        .NET framework through a Udemy course. I am a fast learner and eager to
+        take on new challenges, constantly seeking opportunities to expand my
+        knowledge and improve my craft.
+      </p>
     ),
   },
   {
