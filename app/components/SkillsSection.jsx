@@ -23,7 +23,7 @@ const SkillsSection = () => {
   return (
     <section id="skills" className="py-16 px-4 text-white">
       <h2 className="text-4xl font-bold text-center mb-4">Skills</h2>
-      <p className="text-center mb-8 font-semibold text-slate-800">
+      <p className="text-center mb-8 font-semibold">
         Hover to see the percentage of my proficiency.
       </p>
       <div className="grid grid-cols-3 place-items-center sm:grid-cols-4 lg:grid-cols-6 gap-8">

@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
-import colors from "tailwindcss/colors"; // Import Tailwind colors
+const colors = require("tailwindcss/colors"); // Import Tailwind colors
 
-export default {
+module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -16,9 +16,16 @@ export default {
       },
     },
     colors: {
-      ...colors, // Spread Tailwind's default colors
-      primary: colors.blue, // Custom primary color
-      secondary: colors.cyan, // Custom secondary color
+      ...colors,
+      primary: colors.blue,
+      secondary: colors.cyan,
+    },
+    screens: {
+      sm: "641px",
+      md: "769px",
+      lg: "1025px",
+      xl: "1281px",
+      "2xl": "1537px",
     },
   },
   plugins: [],

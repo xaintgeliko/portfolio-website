@@ -27,8 +27,8 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>
-          Bachelor of Science in Information Technology - Polytechnic University
-          of the Philippines - (Binan Campus)
+          Bachelor of Science in Information Technology | Polytechnic University
+          of the Philippines (Binan Campus) | October 2023
         </li>
       </ul>
     ),
@@ -38,11 +38,9 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>
-          Front End Development Course - Digiteer Inc. (September 2023 -
-          December 2023)
-        </li>
-        <li>Ultimate C# Master Class for 2025 - Udemy (Ongoing)</li>
+        <li>Digiteer Inc. | Frontend Development Bootcamp | Dec 2023</li>
+        <li>Udemy | Ultimate C# Master Class for 2025 | January 2025</li>
+        <li>Udemy | Front-End Web Developer Bootcamp | Jan 2025</li>
       </ul>
     ),
   },
@@ -61,12 +59,15 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image
-          src="/images/about-image.svg"
-          alt="about-image"
-          width={500}
-          height={500}
-        />
+        <div className="">
+          <Image
+            src="/images/about-image.svg"
+            alt="about-image"
+            width={500}
+            height={500}
+            className="w-full h-full"
+          />
+        </div>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <div className="flex flex-row whitespace-nowrap justify-between mt-8">
             <TabButton
